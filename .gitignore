@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Generated files
+*.log
+
+# Ignore one file
+private_notes.txt
+
+# Ignore an entire folder
+local_data/

@@ -1,0 +1,13 @@
+[project]
+name = "researh-paper"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "docxtpl>=0.20.2",
+    "langchain-core>=1.6.12",
+    "langchain-google-genai>=4.4.2",
+    "langgraph>=1.2.16",
+    "pydantic>=2.14.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+]
