@@ -1,0 +1,817 @@
+{
+    "Paper Interpretation": {
+        "title": "TurfMatch A Unified Full Stack Platform for Sports Venue Booking and Player Matchmaking",
+        "listOfAuthors": [
+            {
+                "name": "Abhiman Potekar",
+                "email": "abhimanpotekar@gmail.com",
+                "affiliation": "DESH, Vishwakarma Institute of Technology ,Pune"
+            },
+            {
+                "name": "Pradnyesh Patil",
+                "email": "pradnyeshpatil.123@gmail.com",
+                "affiliation": "DESH, Vishwakarma Institute of Technology ,Pune"
+            },
+            {
+                "name": "Pradyumna Patil",
+                "email": "dharavidarinda43@gmail.com",
+                "affiliation": "DESH, Vishwakarma Institute of Technology ,Pune"
+            },
+            {
+                "name": "Ved Potdar",
+                "email": "vedvpotdar67@gmail.com",
+                "affiliation": "DESH, Vishwakarma Institute of Technology ,Pune"
+            },
+            {
+                "name": "Prajwal Palphade",
+                "email": "palebluedot@gmail.com",
+                "affiliation": "DESH, Vishwakarma Institute of Technology ,Pune"
+            }
+        ],
+        "blockClassification": [
+            {
+                "blockID": "block_001",
+                "semanticRole": "title"
+            },
+            {
+                "blockID": "block_002",
+                "semanticRole": "title"
+            },
+            {
+                "blockID": "block_003",
+                "semanticRole": "author_details"
+            },
+            {
+                "blockID": "block_004",
+                "semanticRole": "author_details"
+            },
+            {
+                "blockID": "block_005",
+                "semanticRole": "author_details"
+            },
+            {
+                "blockID": "block_006",
+                "semanticRole": "author_details"
+            },
+            {
+                "blockID": "block_007",
+                "semanticRole": "other"
+            },
+            {
+                "blockID": "block_008",
+                "semanticRole": "abstract"
+            },
+            {
+                "blockID": "block_009",
+                "semanticRole": "keywords"
+            },
+            {
+                "blockID": "block_010",
+                "semanticRole": "introduction"
+            },
+            {
+                "blockID": "block_011",
+                "semanticRole": "introduction"
+            },
+            {
+                "blockID": "block_012",
+                "semanticRole": "introduction"
+            },
+            {
+                "blockID": "block_013",
+                "semanticRole": "introduction"
+            },
+            {
+                "blockID": "block_014",
+                "semanticRole": "related_work"
+            },
+            {
+                "blockID": "block_015",
+                "semanticRole": "related_work"
+            },
+            {
+                "blockID": "block_016",
+                "semanticRole": "related_work"
+            },
+            {
+                "blockID": "block_017",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_018",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_019",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_020",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_021",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_022",
+                "semanticRole": "other"
+            },
+            {
+                "blockID": "block_023",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_024",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_025",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_026",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_027",
+                "semanticRole": "other"
+            },
+            {
+                "blockID": "block_028",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_029",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_030",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_031",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_032",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_033",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_034",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_035",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_036",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_037",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_038",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_039",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_040",
+                "semanticRole": "other"
+            },
+            {
+                "blockID": "block_041",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_042",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_043",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_044",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_045",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_046",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_047",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_048",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_049",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_050",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_051",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_052",
+                "semanticRole": "methodology"
+            },
+            {
+                "blockID": "block_053",
+                "semanticRole": "results"
+            },
+            {
+                "blockID": "block_054",
+                "semanticRole": "results"
+            },
+            {
+                "blockID": "block_055",
+                "semanticRole": "results"
+            },
+            {
+                "blockID": "block_056",
+                "semanticRole": "other"
+            },
+            {
+                "blockID": "block_057",
+                "semanticRole": "results"
+            },
+            {
+                "blockID": "block_058",
+                "semanticRole": "results"
+            },
+            {
+                "blockID": "block_059",
+                "semanticRole": "discussion"
+            },
+            {
+                "blockID": "block_060",
+                "semanticRole": "discussion"
+            },
+            {
+                "blockID": "block_061",
+                "semanticRole": "discussion"
+            },
+            {
+                "blockID": "block_062",
+                "semanticRole": "conclusion"
+            },
+            {
+                "blockID": "block_063",
+                "semanticRole": "conclusion"
+            },
+            {
+                "blockID": "block_064",
+                "semanticRole": "conclusion"
+            },
+            {
+                "blockID": "block_065",
+                "semanticRole": "acknowledgements"
+            },
+            {
+                "blockID": "block_066",
+                "semanticRole": "acknowledgements"
+            },
+            {
+                "blockID": "block_067",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_068",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_069",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_070",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_071",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_072",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_073",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_074",
+                "semanticRole": "references"
+            },
+            {
+                "blockID": "block_075",
+                "semanticRole": "references"
+            }
+        ],
+        "interpretationWarnings": []
+    },
+    "Source Paper": {
+        "title": "",
+        "listOfAuthors": [],
+        "listOfContentBlocks": [
+            {
+                "uniqueID": "block_001",
+                "blockType": "paragraph",
+                "text": "TurfMatch A Unified Full Stack Platform for Sports Venue Booking and Player Matchmaking",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_002",
+                "blockType": "paragraph",
+                "text": "Design, Architecture and Algorithmic Framework",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_003",
+                "blockType": "paragraph",
+                "text": "Abhiman Potekar, Pradnyesh Patil, Pradyumna Patil, Ved Potdar, Prajwal Palphade",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_004",
+                "blockType": "paragraph",
+                "text": "DESH, Vishwakarma Institute of Technology ,Pune",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_005",
+                "blockType": "paragraph",
+                "text": "Pune,Indi",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_006",
+                "blockType": "paragraph",
+                "text": "abhimanpotekar@gmail.com,  pradnyeshpatil.123@gmail.com ,vedvpotdar67@gmail.com, dharavidarinda43@gmail.com, palebluedot@gmail.com",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_007",
+                "blockType": "paragraph",
+                "text": "",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_008",
+                "blockType": "paragraph",
+                "text": "Abstract\u2014 Urban recreational sports are often fragmented across separate venue discovery, booking and social coordination channels. This paper presents TurfMatch, a full stack web platform that unifies real-time sports venue discovery, time-slot reservation, player matchmaking and in-platform communication. The system uses a browser-based client, a Node.js and Express application layer, and a MySQL relational database. Its design emphasizes transactional booking consistency, location-aware venue ranking and deterministic player compatibility rather than requiring machine-learning components. A conflict-detection workflow validates a requested venue and time interval before confirmation, while geographic proximity can be estimated through the Haversine distance. Player recommendations can be ranked using sport preference, availability, skill compatibility and distance. The contribution of TurfMatch is therefore not online booking alone, but the integration of facility access and teammate formation into one coordinated workflow. The paper describes the architecture, data model, core algorithms, implementation strategy, security considerations and a reproducible evaluation framework for functional correctness, concurrency and scalability. AI-assisted dynamic pricing is intentionally treated as future work so that the present system remains independently useful and technically verifiable as a conventional full stack application.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_009",
+                "blockType": "paragraph",
+                "text": "Keywords\u2014full stack web application; sports venue booking; player matchmaking; geolocation; scheduling; MySQL; Node.js",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_010",
+                "blockType": "paragraph",
+                "text": "I. INTRODUCTION",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_011",
+                "blockType": "paragraph",
+                "text": "Access to urban sports infrastructure is increasingly mediated by digital services, yet the user journey remains fragmented. A player may discover a nearby turf on one service, contact the venue separately to confirm a slot, and then use an unrelated social channel to assemble a team. This fragmentation introduces avoidable coordination overhead and can discourage spontaneous participation, particularly when venue availability and player availability must be reconciled at short notice.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_012",
+                "blockType": "paragraph",
+                "text": "Existing sports reservation systems demonstrate the value of online scheduling, centralized facility information and conflict avoidance [1]\u2013[3]. However, many such systems focus primarily on the facility transaction. TurfMatch extends the problem boundary by treating a sports session as a combined resource-coordination problem: a user needs both a playable venue and compatible people at an overlapping time. The platform therefore integrates venue discovery, slot booking, teammate discovery and communication within a single web application.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_013",
+                "blockType": "paragraph",
+                "text": "The principal contribution is a unified full stack architecture in which booking consistency and player coordination share a common data model. The design intentionally avoids depending on computer vision or machine learning. Instead, the research contribution is expressed through system integration, deterministic ranking, conflict-safe scheduling and a scalable relational model. This makes the approach deployable with conventional web infrastructure while preserving a clear path for optional intelligent features in later versions.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_014",
+                "blockType": "paragraph",
+                "text": "II. RELATED WORK AND RESEARCH GAP",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_015",
+                "blockType": "paragraph",
+                "text": "Li et al. developed an online booking system for university sports venues to improve facility utilization and provide centralized reservation functions [1]. A more recent sports facility reservation system reported user registration, date locking, facility reservation and database-backed management [2]. Daza et al. combined community sports booking with a scheduling algorithm and data visualization [3]. These works establish that online availability and scheduling are useful, but the facility remains the dominant entity.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_016",
+                "blockType": "paragraph",
+                "text": "TurfMatch addresses a complementary gap: successful recreational play also depends on forming a group. A venue-centric system can expose an empty slot without solving the problem of a player who lacks teammates. Conversely, a social matching service without integrated availability can recommend people who cannot use the same venue or time. The research question is therefore whether both sides can be represented in one consistent application workflow without introducing unnecessary architectural complexity.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_017",
+                "blockType": "paragraph",
+                "text": "III. SYSTEM REQUIREMENTS AND ARCHITECTURE",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_018",
+                "blockType": "paragraph",
+                "text": "A. Functional Requirements",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_019",
+                "blockType": "paragraph",
+                "text": "The core functional requirements are: (1) discover sports venues and inspect current slot availability; (2) submit and confirm a booking only when the requested interval remains available; (3) locate players compatible with a selected sport, availability window and practical travel distance; and (4) provide an in-platform communication channel so matched users can coordinate the session. These functions correspond directly to the user journey rather than to independent feature modules.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_020",
+                "blockType": "paragraph",
+                "text": "B. Technology Stack",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_021",
+                "blockType": "paragraph",
+                "text": "The project began as an HTML, CSS and JavaScript prototype and evolved into a full stack application using Node.js and Express for the server layer with MySQL for persistent relational storage. This separation follows the client-server principle common to REST-oriented web architectures [4]. The database is responsible for durable entities and relationships, while server endpoints implement validation, query orchestration and booking rules.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_022",
+                "blockType": "paragraph",
+                "text": "",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_023",
+                "blockType": "paragraph",
+                "text": "Fig. 1. Logical architecture of the TurfMatch platform.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_024",
+                "blockType": "paragraph",
+                "text": "C. Data Model",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_025",
+                "blockType": "paragraph",
+                "text": "A normalized relational model can represent users, venues, sports, venue-sport mappings, time slots, bookings, player preferences, match requests and chat messages. Booking rows reference both a user and a venue slot, enabling the server to verify occupancy before confirmation. Separating venue identity from availability intervals avoids duplicating descriptive venue data and supports indexing by venue, date and status.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_026",
+                "blockType": "table",
+                "text": "Entity\tPurpose\nUser\tIdentity, sport preferences and player profile\nVenue\tLocation and facility information\nSlot\tVenue-specific start and end time\nBooking\tConfirmed user-to-slot reservation\nMatch Request\tPlayer availability and matching constraints\nMessage\tCoordination between matched users",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_027",
+                "blockType": "paragraph",
+                "text": "",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_028",
+                "blockType": "paragraph",
+                "text": "IV. CORE ALGORITHMS AND WORKFLOW",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_029",
+                "blockType": "paragraph",
+                "text": "A. Location Aware Venue Ranking",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_030",
+                "blockType": "paragraph",
+                "text": "When latitude and longitude are available, TurfMatch can rank venues using the Haversine great-circle distance. For two coordinate pairs, the central angle is derived from the differences in latitude and longitude, after which distance is obtained by multiplying the angle by the Earth radius. Haversine-based distance estimation is well suited to short location-ranking tasks because it is deterministic and inexpensive [5]. The database may first restrict candidates by city or bounding region, after which the application layer computes precise ranking for the reduced set.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_031",
+                "blockType": "paragraph",
+                "text": "a = sin^2(dLat/2) + cos(lat1) cos(lat2) sin^2(dLon/2)",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_032",
+                "blockType": "paragraph",
+                "text": "d = 2R atan2(sqrt(a), sqrt(1-a))                                      (1)",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_033",
+                "blockType": "paragraph",
+                "text": "B. Conflict Safe Slot Booking",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_034",
+                "blockType": "paragraph",
+                "text": "A booking request is accepted only if no confirmed booking overlaps the requested interval for the same venue resource. For a requested interval [s, e) and an existing interval [s\u1d62, e\u1d62), an overlap exists when s < e\u1d62 and e > s\u1d62. The server performs this check immediately before insertion. In deployment, the check and insertion should execute inside a database transaction with an appropriate uniqueness or locking strategy so that two near-simultaneous requests cannot both confirm the same slot.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_035",
+                "blockType": "paragraph",
+                "text": "conflict = (s < e_i) AND (e > s_i)                                      (2)",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_036",
+                "blockType": "paragraph",
+                "text": "C. Deterministic Player Matchmaking",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_037",
+                "blockType": "paragraph",
+                "text": "Player matching can remain transparent and non-ML-based. Candidates are first filtered by sport and overlapping availability. A compatibility score can then combine normalized skill similarity, temporal overlap and geographic proximity. The weights are configurable and do not require training data. This preserves explainability: a recommendation can be traced to explicit matching factors rather than an opaque model.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_038",
+                "blockType": "paragraph",
+                "text": "Score = w1*Sskill + w2*Stime + w3*Sdistance,   sum(w)=1                    (3)",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_039",
+                "blockType": "paragraph",
+                "text": "For the first implementation, equal or product-tuned weights are sufficient. The algorithm is intentionally simple so the paper remains about a full stack coordination system rather than being reframed as an artificial-intelligence study.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_040",
+                "blockType": "paragraph",
+                "text": "",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_041",
+                "blockType": "paragraph",
+                "text": "Fig. 2. Integrated user workflow from venue discovery to team coordination.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_042",
+                "blockType": "paragraph",
+                "text": "V. IMPLEMENTATION DETAILS",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_043",
+                "blockType": "paragraph",
+                "text": "A. Server and API Layer",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_044",
+                "blockType": "paragraph",
+                "text": "Express routes can be organized around users, venues, availability, bookings, match requests and messages. Request handlers validate identifiers, timestamps and required fields before querying MySQL. The server returns structured responses to the browser client so that slot status and validation errors can be reflected without a full page reload. The separation of interface and server logic supports independent evolution of the presentation layer, consistent with client-server architectural constraints [4].",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_045",
+                "blockType": "paragraph",
+                "text": "B. Relational Persistence",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_046",
+                "blockType": "paragraph",
+                "text": "MySQL is appropriate for this workload because core operations depend on well-defined relationships and transactional consistency. Indexes on venue identifiers, booking dates, slot status and user-sport mappings reduce the candidate set for frequent queries. Foreign keys preserve referential integrity between bookings and their users or venue resources. The schema also provides an audit-friendly representation of reservations because a confirmed booking is stored as an explicit database record rather than inferred from transient UI state.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_047",
+                "blockType": "paragraph",
+                "text": "C. Communication Module",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_048",
+                "blockType": "paragraph",
+                "text": "The chat component is limited to session coordination and is integrated with the same authenticated user context as booking and matchmaking. Messages can be associated with a match or conversation identifier and ordered by creation time. This reduces the need for users to immediately exchange external contact information and keeps the coordination flow inside the platform.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_049",
+                "blockType": "paragraph",
+                "text": "VI. SECURITY RELIABILITY AND SCALABILITY",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_050",
+                "blockType": "paragraph",
+                "text": "A deployable system should apply access control to booking modification, profile updates and venue-management actions. Role-based access control is a widely established method for associating permissions with responsibilities rather than with individual users [6]. Even where TurfMatch initially exposes only a small set of user types, the same principle can separate ordinary user operations from administrative or venue-management functions as the platform grows.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_051",
+                "blockType": "paragraph",
+                "text": "Booking reliability depends on server-side validation rather than on disabling buttons in the browser. Client-side availability displays improve usability, but the database transaction is the authoritative decision point. Input validation, parameterized SQL queries, password hashing, rate limiting for authentication endpoints and secure session or token handling should form the minimum deployment baseline. Chat content should also be length-limited and escaped when rendered to reduce injection risk.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_052",
+                "blockType": "paragraph",
+                "text": "For scalability, the stateless portions of the Node.js application can be replicated behind a load balancer, while shared state remains in MySQL or a dedicated session/message service. Frequently read venue metadata can be cached without caching mutable booking decisions. This distinction is important because stale venue descriptions are tolerable for short periods, whereas stale slot availability can cause incorrect confirmations.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_053",
+                "blockType": "paragraph",
+                "text": "VII. EVALUATION FRAMEWORK AND PROTOTYPE VALIDATION",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_054",
+                "blockType": "paragraph",
+                "text": "A research-oriented evaluation should measure more than whether pages render correctly. TurfMatch can be assessed at three levels: functional correctness, transaction consistency and system performance. The functional layer verifies that all required workflows produce the expected database state. The consistency layer deliberately issues competing requests for the same slot. The performance layer measures latency and throughput as concurrent users increase.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_055",
+                "blockType": "table",
+                "text": "Test\tAcceptance Criterion\nVenue discovery\tRelevant venues and current slots are returned\nBooking conflict\tSecond overlapping confirmation is rejected\nMatchmaking filter\tOnly compatible sport/time candidates remain\nDistance ranking\tNearer candidate ranks ahead when other factors tie\nChat persistence\tMessages reload in correct conversation order",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_056",
+                "blockType": "paragraph",
+                "text": "",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_057",
+                "blockType": "paragraph",
+                "text": "For quantitative submission results, a reproducible load test should record median and 95th-percentile API latency for venue search and booking confirmation at increasing concurrency levels, together with database error rate and the number of duplicate-slot confirmations. The critical correctness target is zero duplicate confirmations under concurrent access. Performance figures should be obtained from the actual deployed prototype rather than estimated, allowing the paper to distinguish measured results from architectural expectations.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_058",
+                "blockType": "paragraph",
+                "text": "Algorithmically, location ranking is linear in the number of candidate venues after the coarse database filter. A naive player-ranking pass is similarly linear in the filtered candidate pool. Booking conflict checking can be made efficient by indexing venue and time-related columns, while transaction duration remains short because the critical section contains only availability validation and insertion. These properties are sufficient for a city-level prototype and can later be improved with geospatial indexing or partitioning if workload measurements justify them.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_059",
+                "blockType": "paragraph",
+                "text": "VIII. DISCUSSION",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_060",
+                "blockType": "paragraph",
+                "text": "The strongest aspect of TurfMatch is integration rather than the novelty of any individual web primitive. Online reservations, relational databases and chat systems are established technologies; the engineering contribution lies in composing them around the complete recreational-sports workflow and enforcing a common consistency model. This is also why introducing an unrelated computer-vision component would not strengthen the current research question.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_061",
+                "blockType": "paragraph",
+                "text": "The deterministic matchmaking model has two advantages for an early deployment. First, it works without a large historical dataset. Second, its recommendations are explainable through visible factors such as sport, time and distance. Its limitation is that fixed weights may not represent every user\u2019s preference. Likewise, Haversine distance measures geographic separation rather than road travel time. These are acceptable constraints for a first full stack implementation and define clear extensions for future work.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_062",
+                "blockType": "paragraph",
+                "text": "IX. CONCLUSION AND FUTURE WORK",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_063",
+                "blockType": "paragraph",
+                "text": "This paper presented TurfMatch, a unified full stack platform for sports venue discovery, booking, player matchmaking and social coordination. The proposed architecture uses a browser client, Node.js and Express services and a MySQL relational database. Location-aware ranking, interval-based booking validation and deterministic compatibility scoring provide practical algorithmic behavior without requiring an AI subsystem. The design places server-side transaction consistency at the center of the booking workflow and keeps player coordination connected to the same venue and time context.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_064",
+                "blockType": "paragraph",
+                "text": "Future work should be incremental and remain aligned with the platform. Appropriate extensions include road-network travel-time ranking, notification services, payment integration, venue-owner analytics and optional demand-aware dynamic pricing. If dynamic pricing is later implemented with an AI model, it should be evaluated as a separate module against a transparent rule-based baseline rather than presented as an unverified feature of the current system.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_065",
+                "blockType": "paragraph",
+                "text": "ACKNOWLEDGMENT",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_066",
+                "blockType": "paragraph",
+                "text": "The authors acknowledge the guidance and infrastructure provided by their institution and project mentors. This section may be edited or removed before submission as appropriate.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_067",
+                "blockType": "paragraph",
+                "text": "REFERENCES",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_068",
+                "blockType": "paragraph",
+                "text": "[1] C. Li, J. Li, H. Cao, and Z. Meng, \u201cDesign and implementation of online booking system of university sports venues,\u201d MATEC Web of Conferences, vol. 100, 02024, 2017, doi: 10.1051/matecconf/201710002024.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_069",
+                "blockType": "paragraph",
+                "text": "[2] N. S. S. Al Zaman @ Kamaruzaman et al., \u201cSports Facility Reservation System (STFS): Development and Usability Study,\u201d in 2024 IEEE International Conference on Automatic Control and Intelligent Systems, 2024, doi: 10.1109/I2CACIS61270.2024.10649875.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_070",
+                "blockType": "paragraph",
+                "text": "[3] R. J. Daza, J. E. Tambalque, C. A. Ho, and K. C. Moreno, \u201cCourtyard Reserva: A Web-Based Booking System for Community Sports Facilities with Data Visualization and Scheduling Algorithm,\u201d International Journal of Research and Scientific Innovation, vol. 13, no. 2, pp. 673\u2013687, 2026, doi: 10.51244/IJRSI.2026.13020059.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_071",
+                "blockType": "paragraph",
+                "text": "[4] R. T. Fielding, \u201cArchitectural styles and the design of network-based software architectures,\u201d Ph.D. dissertation, University of California, Irvine, 2000.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_072",
+                "blockType": "paragraph",
+                "text": "[5] R. W. Sinnott, \u201cVirtues of the Haversine,\u201d Sky and Telescope, vol. 68, no. 2, p. 159, 1984.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_073",
+                "blockType": "paragraph",
+                "text": "[6] R. S. Sandhu, E. J. Coyne, H. L. Feinstein, and C. E. Youman, \u201cRole-based access control models,\u201d Computer, vol. 29, no. 2, pp. 38\u201347, 1996, doi: 10.1109/2.485845.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_074",
+                "blockType": "paragraph",
+                "text": "[7] D. F. Ferraiolo, R. Sandhu, S. Gavrila, D. R. Kuhn, and R. Chandramouli, \u201cProposed NIST standard for role-based access control,\u201d ACM Transactions on Information and System Security, vol. 4, no. 3, pp. 224\u2013274, 2001.",
+                "optionalAssetPath": null
+            },
+            {
+                "uniqueID": "block_075",
+                "blockType": "paragraph",
+                "text": "[8] F. Ardiansyah, M. Y. Noval, F. Faadillah, R. Gunaldo, and W. Witanti, \u201cSports Field Booking Information System Based on Web: Analysis and Design Approach,\u201d Proceedings of the 2nd International Conference on Social Science, vol. 5, no. 1, pp. 648\u2013660, 2026, doi: 10.59188/icss.v5i1.288.",
+                "optionalAssetPath": null
+            }
+        ],
+        "extractionWarnings": [
+            [
+                "block_022",
+                "A drawing or image was detected but not extracted. Only the paragraph's available text is preserved."
+            ],
+            [
+                "block_026",
+                "Table text was flattened using tabs and newlines. Cell structure, merged cells and formatting are not preserved."
+            ],
+            [
+                "block_040",
+                "A drawing or image was detected but not extracted. Only the paragraph's available text is preserved."
+            ],
+            [
+                "block_055",
+                "Table text was flattened using tabs and newlines. Cell structure, merged cells and formatting are not preserved."
+            ],
+            [
+                null,
+                "No non-empty Title-style paragraph was identified. The title is an empty string pending review or later LLM interpretation."
+            ],
+            [
+                null,
+                "Authors, emails and affiliations have not been identified. Their body text remains in the extracted blocks for later interpretation."
+            ]
+        ]
+    }
+}
