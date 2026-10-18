@@ -81,3 +81,33 @@ class SourcePaper(BaseModel):
             seen_ids.add(block_id)
 
         return self
+
+
+
+    # structured response to be used by model->
+
+class BlockClassification(BaseModel):
+    blockID:str = Field(
+        description = "The existing ID assigned by the document reader. Preserve it exactly; do not generate a new ID."
+    )
+    semanticRole:Literal["title", "author_details", "abstract", "keywords", "introduction", "related_work", "methodology", "results", "discussion",
+                        "conclusion", "acknowledgements", "references","other","unknown"] = Field(
+        description = "The purpose this block serves in the paper. Use other for understood content outside the supported categories, and unknown when its purpose cannot be determined."
+    )
+
+class PaperInterpretation(BaseModel):
+    title:None|str = Field(
+        default = None,
+        description= "The paper’s title as identified from the source content. Use None if it cannot be identified."
+    )
+    listOfAuthors: List[Author] = Field(
+        description="The authors of the paper, preserving their original order."
+    )
+    blockClassification : List[BlockClassification] = Field(
+        description="“One classification for every source block, preserving source order and using each existing block ID exactly once."
+    )
+    interpretationWarnings:List[Tuple[str | None, str]] = Field(
+        description="Interpretation problems or ambiguities. Each tuple contains the affected block ID, or None for a general warning, followed by the warning message. Use an empty list when there are no warnings."
+    )
+
+
