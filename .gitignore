@@ -26,4 +26,13 @@ private_notes.txt
 local_data/
 
 /settings.py
-#h
+
+# Ignore specific docx files (or all docx files)
+inputs/paper.docx
+templates/template.docx
+# Alternatively, to ignore any .docx file anywhere:
+# *.docx
+
+# Ignore all generated contents inside outputs, but keep the folder and its __init__.py
+outputs/*
+!outputs/__init__.py
