@@ -35,4 +35,4 @@ templates/template.docx
 
 # Ignore all generated contents inside outputs, but keep the folder and its __init__.py
 outputs/*
-!outputs/__init__.py
+!outputs/**/
