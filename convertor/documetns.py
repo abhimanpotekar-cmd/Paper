@@ -1,8 +1,9 @@
+from .schemas import ContentBlock, SourcePaper
 from pathlib import Path
 from docx import Document
 from docx.table import Table
 from docx.text.paragraph import Paragraph
-from .schemas import ContentBlock, SourcePaper
+from docx.oxml.ns import qn
 
 
 def read_paper(paper_path: str) -> SourcePaper:
@@ -115,4 +116,104 @@ def read_paper(paper_path: str) -> SourcePaper:
         listOfContentBlocks=blocks,
         extractionWarnings=warnings,
     )
+
+
+
+def font_details(font):
+    return {
+        "name": font.name,
+        "size_pt": font.size.pt if font.size else None,
+        "bold": font.bold,
+        "italic": font.italic
+    }
+
+def read_template(template_path: str) -> dict:
+    path = Path(template_path)
+    if not path.is_file():
+        raise FileNotFoundError(f"Template not found: {path}")
+    if path.suffix.lower() != ".docx":
+        raise ValueError("The template must be a .docx file.")
+
+    doc = Document(str(path))
+    blocks, warnings, styles = [], [], {}
+    section_number = 1
+
+    for number, item in enumerate(doc.iter_inner_content(), 1):
+        block_id = f"template_{number:03d}"
+
+        if isinstance(item, Paragraph):
+            # Keep style definitions and their inheritance relationships.
+            paragraph_styles = [item.style] + [run.style for run in item.runs]
+            for style in paragraph_styles:
+                while style is not None and style.style_id not in styles:
+                    styles[style.style_id] = {
+                        "name": style.name,
+                        "base_style": style.base_style.style_id if style.base_style else None,
+                        "font": font_details(style.font)
+                    }
+                    style = style.base_style
+
+            blocks.append({
+                "id": block_id,
+                "type": "paragraph",
+                "section": section_number,
+                "text": item.text,
+                "style_id": item.style.style_id if item.style else None,
+                "runs": [
+                    {
+                        "text": run.text,
+                        "style_id": run.style.style_id if run.style else None,
+                        "font": font_details(run.font)
+                    }
+                    for run in item.runs
+                ]
+            })
+
+            if item._p.xpath(".//w:drawing | .//w:pict | .//m:oMath"):
+                warnings.append((
+                    block_id,
+                    "Embedded images, drawings or equations were not extracted."
+                ))
+            if item._p.xpath("./w:pPr/w:sectPr"):
+                section_number += 1
+
+        elif isinstance(item, Table):
+            blocks.append({
+                "id": block_id,
+                "type": "table",
+                "section": section_number,
+                "rows": [[cell.text for cell in row.cells] for row in item.rows]
+            })
+            warnings.append((
+                block_id,
+                "Table cell text only; formatting, merged structure and embedded objects were not extracted."
+            ))
+
+    sections = []
+    for number, section in enumerate(doc.sections, 1):
+        columns = section._sectPr.find(qn("w:cols"))
+        layout = {}
+        for name in [
+            "page_width", "page_height", "top_margin",
+            "bottom_margin", "left_margin", "right_margin"
+        ]:
+            value = getattr(section, name)
+            layout[name + "_cm"] = value.cm if value is not None else None
+        layout["section"] = number
+        layout["column_count"] = (
+            int(columns.get(qn("w:num"), "1")) if columns is not None else 1
+        )
+        sections.append(layout)
+
+    warnings.append((
+        None,
+        "Headers, footers, text boxes, theme defaults, paragraph spacing, "
+        "hyperlink formatting and individual column widths are not inspected."
+    ))
+    return {
+        "blocks": blocks,
+        "styles": styles,
+        "sections": sections,
+        "warnings": warnings
+    }
 
